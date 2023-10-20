@@ -1,0 +1,21 @@
+.ranking-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
+
+.newsList-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card {
+  display: flex;
+  min-width: 32%;
+  flex-direction: row;
+  align-items: center;
+  font-size: 13px !important;
+  gap: 5%;
+}

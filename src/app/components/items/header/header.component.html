@@ -1,0 +1,29 @@
+<div class="header-container">
+  <div class="logo-conteiner">
+    <img [src]="logoUrl" alt="Portal Stylos" width="200" />
+    <app-search-bar></app-search-bar>
+    <div class="social-network-container">
+      <a [href]="instragramUrl">
+        <img src="assets/header/instagram-icon.svg" alt="Instagram" />
+      </a>
+      <a [href]="facebookUrl">
+        <img src="assets/header/facebook-icon.svg" alt="Facebook" />
+      </a>
+      <a [href]="youtubeUrl">
+        <img src="assets/header/youtube-icon.svg" alt="You Tube" />
+      </a>
+      <a [href]="twitterUrl">
+        <img src="assets/header/twitter-icon.svg" alt="Twitter" />
+      </a>
+    </div>
+  </div>
+  <div class="header-button-conteiner">
+    <a [routerLink]="['']">
+      <span class="header-button">Home</span>
+    </a>
+
+    <a *ngFor="let category of categoryList" [routerLink]="['/noticias', category.name]">
+      <span class="header-button">{{ category.name }}</span>
+    </a>
+  </div>
+</div>

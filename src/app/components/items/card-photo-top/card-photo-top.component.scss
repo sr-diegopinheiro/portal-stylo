@@ -1,0 +1,42 @@
+.card-photo-top-container {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin: 1%;
+}
+
+img {
+  width: 312.43px;
+  height: 300px;
+  margin-bottom: 2%;
+  border-radius: 0px 9px 0px 9px;
+  object-fit: cover;
+}
+
+.tag {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cc0000;
+  margin-bottom: -0.5%;
+  max-width: 312.43px;
+}
+
+.textTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0%;
+  color: black;
+  font-weight: 600px;
+  max-width: 312.43px;
+  &:hover {
+    color: #646363;
+  }
+}

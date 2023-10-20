@@ -1,0 +1,28 @@
+<div class="destaques-container">
+  <app-title-section text="DESTAQUES"></app-title-section>
+
+  <div class="cards-photo-top-container">
+    <app-card-photo-top
+      style="width: 50%"
+      [imgUrl]="emphasiList[0]?.image"
+      [tagText]="emphasiList[0].tags[0]"
+      [textTitle]="emphasiList[0].title"
+    ></app-card-photo-top>
+    <app-card-photo-top
+      style="width: 50%"
+      [imgUrl]="emphasiList[1]?.image"
+      [tagText]="emphasiList[1].tags[0]"
+      [textTitle]="emphasiList[1]?.title"
+    ></app-card-photo-top>
+  </div>
+
+  <p-divider></p-divider>
+
+  <div class="cards-no-photo-container">
+    <app-card-no-photo style="width: 45%" [tagText]="emphasiList[2].tags[0]" [textTitle]="emphasiList[2].title">
+    </app-card-no-photo>
+    <div class="column-yellow"></div>
+    <app-card-no-photo style="width: 45%" [tagText]="emphasiList[4].tags[0]" [textTitle]="emphasiList[4].title">
+    </app-card-no-photo>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.marketing-text {
+  color: #1b151480;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 5%;
+}
+
+img {
+  cursor: pointer;
+}

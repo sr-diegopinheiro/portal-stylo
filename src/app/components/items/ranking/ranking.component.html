@@ -1,0 +1,29 @@
+<div class="ranking-container">
+  <app-title-section text="MAIS LIDAS"></app-title-section>
+  <div class="newsList-container">
+    <div class="card">
+      <img src="assets/body/1.png" />
+      <app-card-no-photo
+        [fontSize]="13"
+        [tagText]="newsList[0].tags[0]"
+        [textTitle]="newsList[0].title"
+      ></app-card-no-photo>
+    </div>
+    <div class="card">
+      <img src="assets/body/2.png" />
+      <app-card-no-photo
+        [fontSize]="13"
+        [tagText]="newsList[1].tags[0]"
+        [textTitle]="newsList[1].title"
+      ></app-card-no-photo>
+    </div>
+    <div class="card">
+      <img src="assets/body/3.png" />
+      <app-card-no-photo
+        [fontSize]="13"
+        [tagText]="newsList[1].tags[0]"
+        [textTitle]="newsList[1].title"
+      ></app-card-no-photo>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="banner-container">
+  <span class="marketing-text">Publicidade</span>
+  <p-carousel [value]="images" [numVisible]="1" [numScroll]="1">
+    <ng-template let-image pTemplate="item">
+      <img [src]="image" alt="Imagem" />
+    </ng-template>
+  </p-carousel>
+</div>

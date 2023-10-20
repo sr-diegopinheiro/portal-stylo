@@ -1,0 +1,25 @@
+.mark-three-cards-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
+  justify-content: space-between;
+}
+
+img {
+  width: 225px;
+  cursor: pointer;
+}
+.marketing-text {
+  color: #1b151480;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: left;
+}
